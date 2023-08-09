@@ -543,6 +543,11 @@ video {
   background-color: rgb(239 68 68 / var(--tw-bg-opacity));
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\'\.\.\/src\/images\/developer\.png\'\)\] {
   background-image: url('../src/images/developer.png');
 }
@@ -553,6 +558,10 @@ video {
 
 .pt-0 {
   padding-top: 0px;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
 }
 
 .text-center {
